@@ -1,0 +1,109 @@
+.header {
+
+	&__navegation {
+
+		&__titulo {
+			background: rgb(25, 24, 41);
+			background: linear-gradient(90deg, rgba(25, 24, 41, 1) 0%, rgba(75, 77, 4, 1) 17%, rgba(9, 92, 121, 1) 35%, rgba(173, 6, 169, 1) 60%, rgba(126, 63, 193, 1) 71%, rgba(46, 120, 108, 1) 73%, rgba(91, 104, 210, 1) 79%, rgba(213, 117, 20, 1) 86%, rgba(0, 212, 255, 1) 100%);
+			text-align: center;
+			font-size: 3rem;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			padding: 1%;
+			color: rgb(24, 26, 25);
+			font-size: xx-large;
+			margin-top: 0%;
+			margin-bottom: 0%;
+		}
+	}
+}
+
+
+
+h1 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 72px;
+	background: -webkit-linear-gradient(#eee, #333);
+	color-scheme: rgb(98, 120, 141), yellow, purple;
+
+
+}
+
+.menu {
+	background: url('../img/women.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	&__navegation {
+
+		&__titulo1 {
+			text-align: center;
+			color: rgb(10, 66, 59);
+			font-size: medium;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		}
+
+		&__linea {
+			background: rgb(34, 193, 195);
+			background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+			height: 5px;
+			border: none;
+		}
+
+		&__caja {
+			position: relative;
+			display: inline-block;
+			text-align: center;
+			margin-top: 14px;
+
+
+		}
+
+		&__texto {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			position: absolute;
+			top: 30%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 5rem;
+			color: black;
+		}
+	}
+}
+
+.final {
+	&__navegation {
+		&__titulo2 {
+			color: blanchedalmond;
+			text-align: center;
+			font-size: 2rem;
+			margin: 0;
+		}
+
+		&__seccion {
+			display: flex;
+
+		}
+
+		&__caja2 {
+			height: 100%;
+			border-style: double;
+			background: rgb(25, 24, 41);
+			background: linear-gradient(90deg, rgba(25, 24, 41, 1) 0%, rgba(75, 77, 4, 1) 17%, rgba(9, 92, 121, 1) 35%, rgba(173, 6, 169, 1) 60%, rgba(126, 63, 193, 1) 71%, rgba(46, 120, 108, 1) 73%, rgba(91, 104, 210, 1) 79%, rgba(213, 117, 20, 1) 86%, rgba(0, 212, 255, 1) 100%);
+			margin-top: 14px;
+			padding: 1%;
+		}
+
+		&__caja3 {}
+
+		&__parrafo1 {
+			text-align: right;
+			color: blanchedalmond;
+			font-size: xx-large;
+			margin-top: 1%;
+			margin-bottom: 0%;
+		}
+	}
+}
